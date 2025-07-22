@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Slf4j
 
-public class Main implements  CommandLineRunner{
+public class Main implements CommandLineRunner{
     private ColorPrinter colorPrinter;
     public Main(ColorPrinter colorPrinter)
     {
